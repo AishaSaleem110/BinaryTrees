@@ -10,3 +10,21 @@ to later. The data these behaviours carry (parameters of their functions) is as 
 • binary tree nodes: a key, a value (both of these are arbitrary Erlang values), and two tree nodes. One of the tree nodes contains in its expanded
 tree only nodes whose keys are smaller than this key, the other contains only nodes whose keys are larger. Note: “tree node” means here that they
 are process identifiers.
+
+
+### The Code
+
+This code is written in Erlang
+
+### Running The Code
+*To run the code, open the https://replit.com/~ and create a new Replit and paste the code:
+
+Start the erlang shell by typing the following in the replit console:
+
+erl
+c(main).
+% then to create an empty binary tree type the following:
+A = main:empty().
+
+*The files are self-contained and all necessary libraries are imported.
+
